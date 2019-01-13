@@ -1,13 +1,13 @@
 #import <Foundation/Foundation.h>
 
+//Interface containing method declaration
 @interface EvenOddSorting:NSObject
-/* method declaration */
 	-(void)getEvenNumbers:(int*)numbers arraySize:(int) size criteria:(NSString*)criteria;
 @end
 
 @implementation EvenOddSorting
 
-/* method returning the numbers based on the criteria specified*/
+//method returning the numbers based on the criteria specified
 -(void)getEvenNumbers:(int*)numbers arraySize:(int) size criteria:(NSString*)criteria {
 	int counter;
 	int index=0;
